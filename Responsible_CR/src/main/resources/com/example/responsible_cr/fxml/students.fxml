@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="760.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.responsible_cr.studentcontroll">
+   <children>
+      <AnchorPane prefHeight="760.0" prefWidth="1280.0" style="-fx-background-color: #000345;">
+         <children>
+            <Button fx:id="notes" layoutX="866.0" layoutY="390.0" mnemonicParsing="false" onAction="#gotosharenote" prefHeight="35.0" prefWidth="139.0" style="-fx-background-color: grey;" text="Share Notes" textFill="#ececec" />
+            <Button layoutX="866.0" layoutY="201.0" mnemonicParsing="false" onAction="#shownotes" onMouseClicked="#shownotes" prefHeight="35.0" prefWidth="139.0" style="-fx-background-color: grey;" text="show notes" textFill="#faf5f5" />
+            <Button fx:id="sr" layoutX="866.0" layoutY="510.0" mnemonicParsing="false" onAction="#gotortn" prefHeight="35.0" prefWidth="139.0" style="-fx-background-color: grey;" text="Show Routine" textFill="#faf6f6" />
+            <Button fx:id="notice" layoutX="866.0" layoutY="123.0" mnemonicParsing="false" onAction="#gotonotice" prefHeight="35.0" prefWidth="139.0" style="-fx-background-color: grey;" text="show notice" textFill="#faf7f7" />
+            <Button fx:id="ext" layoutX="1169.0" layoutY="701.0" mnemonicParsing="false" onAction="#exitact" prefHeight="35.0" prefWidth="89.0" style="-fx-background-color: skyblue;" text="EXIT" textFill="#c61515" />
+            <Button fx:id="vt" layoutX="866.0" layoutY="281.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="139.0" style="-fx-background-color: grey;" text="Vote" textFill="#faf5f5" />
+            <Button fx:id="cp" layoutX="852.0" layoutY="692.0" mnemonicParsing="false" onAction="#changepassword" prefHeight="35.0" prefWidth="139.0" style="-fx-background-color: skyblue;" text="Change Password" textFill="#c61515" />
+         </children>
+      </AnchorPane>
+      <ImageView fitHeight="761.0" fitWidth="758.0" layoutX="-2.0" layoutY="10.0">
+         <image>
+            <Image url="@../image/12.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

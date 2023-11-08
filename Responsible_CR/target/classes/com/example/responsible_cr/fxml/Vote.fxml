@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.ButtonBar?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" >
+   <children>
+
+      <TextArea layoutX="47.0" layoutY="20.0" prefHeight="74.0" prefWidth="514.0" promptText="Create Poll " />
+      <ButtonBar accessibleText="b" layoutX="47.0" layoutY="108.0" prefHeight="40.0" prefWidth="53.0">
+         <buttons>
+            <RadioButton mnemonicParsing="false" />
+            <TextField/>
+         </buttons>
+      </ButtonBar>
+      <ButtonBar accessibleText="b" layoutX="47.0" layoutY="160.0" prefHeight="40.0" prefWidth="53.0">
+         <buttons>
+            <RadioButton mnemonicParsing="false" prefHeight="30.0" prefWidth="147.0" />
+            <TextField prefHeight="40.0" prefWidth="93.0" />
+         </buttons>
+      </ButtonBar>
+   </children>
+</AnchorPane>

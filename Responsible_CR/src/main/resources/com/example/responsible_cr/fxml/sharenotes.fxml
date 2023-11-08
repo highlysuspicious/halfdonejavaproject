@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="760.0" prefWidth="1280.0" style="-fx-background-color: skyblue;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.responsible_cr.studentcontroll">
+   <children>
+      <TextField fx:id="code" layoutX="729.0" layoutY="313.0" prefHeight="47.0" prefWidth="434.0" promptText="paste the link here" />
+      <Label layoutX="533.0" layoutY="313.0" prefHeight="47.0" prefWidth="159.0" style="-fx-background-color: white;" text="  enter the link here:" />
+      <Label fx:id="done" layoutX="771.0" layoutY="491.0" prefHeight="47.0" prefWidth="366.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Button layoutX="1182.0" layoutY="320.0" mnemonicParsing="false" onAction="#addnote" prefHeight="33.0" prefWidth="71.0" text="confirm" />
+      <Button layoutX="1175.0" layoutY="783.0" mnemonicParsing="false" onAction="#closing" prefHeight="26.0" prefWidth="71.0" text="close" />
+      <ImageView fitHeight="839.0" fitWidth="495.0" layoutX="21.0" layoutY="50.0">
+         <image>
+            <Image url="@../image/12.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
